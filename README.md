@@ -1,32 +1,65 @@
-# React + TypeScript + Vite
+# SevaPilot 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> An AI-powered service-navigation copilot that helps users understand and navigate complex digital service workflows.
 
-Currently, two official plugins are available:
+## 💡 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**SevaPilot** is a personal project exploring how Generative AI can make complex digital services easier to understand and navigate.
 
-## React Compiler
+Users often have to figure out which service they need, which department handles it, what information is required, and what steps they need to follow. SevaPilot provides a conversational interface where users can describe what they need in natural language and receive AI-assisted guidance.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The project focuses on combining a simple web interface with Generative AI to create a more accessible and user-friendly way of interacting with digital services.
 
-## Expanding the Oxlint configuration
+### 🎯 Key Features
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+- 🤖 **AI-Powered Assistance** — Uses the Gemini API to understand user requests and provide relevant guidance.
+- 🧭 **Smart Service Routing** — Helps identify the appropriate service based on the user's intent.
+- 📋 **Requirement Guidance** — Helps users understand the information and documents required for a service.
+- 💬 **Natural-Language Interaction** — Users can describe what they need instead of navigating complex menus.
+- 🔎 **Service Discovery** — Helps users identify relevant services based on their requirements.
+- 👤 **Human-in-the-Loop** — Keeps the user involved before important actions.
+- 🎨 **Interactive Web Interface** — Provides a simple interface for interacting with the AI assistant.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+---
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## 🛠️ Technologies Used
+
+### Frontend
+
+- **React**
+- **TypeScript**
+- **Vite**
+- **Tailwind CSS**
+- **Lucide React**
+
+### AI
+
+- **Google Gemini API**
+- **Generative AI**
+- **AI-assisted service understanding**
+- **AI-assisted service routing**
+
+### Development Tools
+
+- **Node.js**
+- **npm**
+- **Git**
+- **GitHub**
+
+---
+
+## ⚙️ Setup & Installation
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js
+- npm
+- Git
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/RizaShaik/SevaPilot.git
+cd SevaPilot
