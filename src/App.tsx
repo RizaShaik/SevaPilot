@@ -128,9 +128,9 @@ function App() {
 
       {/* Footer */}
       <footer className="footer">
-        <span className="footer-brand">ProofPilot</span>
+        <span className="footer-brand">SevaPilot</span>
         <span className="footer-text">
-          MHTECHIN Innovation Challenge 2026 · Prototype — not production software
+          Build Fast With AI · Prototype — not production software
         </span>
         <span className="footer-text">
           Built with Vite + React + TypeScript
